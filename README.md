@@ -31,7 +31,8 @@ Register Number:212224230246
 struct mesg_buffer { 
 	long mesg_type; 
 	char mesg_text[100]; 
-} message; 
+} message;
+
 int main() 
 { 	key_t key; 
 	int msgid;
